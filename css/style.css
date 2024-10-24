@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f8f0e7;
+  
+}
+
+.cabecalho{
+    background-color: rgb(64, 105, 58);
+    padding: 1.5rem;
+}
+
+.logo-vista-verde{
+    width: 40vh;
+}
+
+.menu-principal{
+   display: flex;
+   gap: 1rem;
+   list-style: none;
+   justify-content: center;
+}
+
+.menu-principal a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+ }
+
+ main img{
+    width: 100%;
+    height: 100%;
+   
+ }
+
+ .banner-principal{
+    background-image: url("/images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+ .banner-principal h2{
+    font-size: 2rem;
+    color: #fff;
+    padding: 0rem 4rem 0rem 4rem;
+ }
+
+ .banner-principal a{
+    background-color: rgb(64, 105, 58);
+    padding: 0.7rem;
+    border-radius: 2rem; 
+    text-decoration: none;
+    color: #fff;
+    margin: 1.4rem auto;
+    font-size: 20px;
+    width: 10rem;
+   
+}
+
+.background-color{
+    background-color: #4e4e4e79;
+    height: 100vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.quem-somos{
+    padding: 4rem 2rem 0rem 2rem;
+}
+
+.quem-somos h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.quem-somos p{
+    font-size: 18px;
+    padding-top: 1rem;
+    color: #292929;
+}
+
+.produtos-destacados{
+    padding: 4rem 2rem 0rem 2rem;
+    gap: 2rem;
+}
+
+.produtos-destacados h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.banner-produto{
+    padding-bottom: 3rem;
+}
+
+.banner-produto h2{
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+
+.banner-produto a{
+    background-color: rgb(64, 105, 58);
+    padding: 0.5rem;
+    border-radius: 2rem; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.conheca-produtos{
+    background-color: rgb(64, 105, 58);
+    padding: 0.5rem;
+    border-radius: 2rem; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto 5rem;
+    width: 65%;
+
+}
+
+footer{
+    background-color:rgb(64, 105, 58); 
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.historia{
+    padding: 2rem;
+}
+
+.historia h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 1rem;
+}
+
+.missao{
+    padding: 2rem;
+}
+
+.missao h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 0.5rem;
+}
+
+.missao p{
+    padding-bottom:1rem ;
+}
+
+.valores{
+    padding: 2rem;
+}
+
+.valores h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 1rem;
+}
+
+.produtos{
+    padding: 2rem 2rem 0rem 2rem;
+    gap: 2rem;
+}
+
+.produtos h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.detalhes-produto{
+    padding: 2rem;
+}
+
+.informacoes-produto h1{
+    text-align: center;
+    font: 24px;
+    padding: 1rem;
+}
+
+.informacoes-produto p{
+    font-size: 18px;
+}
+
+.especificacoes{
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+
+@media (min-width: 768px){
+    .menu{
+       display:flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: -3rem;
+    }
+
+    .menu-principal{
+        gap: 3rem;
+    }
+
+    .banner-principal h2{
+        font-size: 45px;
+    }
+
+    .quem-somos h1{
+        font-size: 40px;
+    }
+
+    .quem-somos-desktop{
+        display: flex;
+        gap:3rem;
+        padding-top: 3rem;
+    }
+
+    .quem-somos img{
+        width: 50%;
+    }
+
+    .quem-somos p{
+        font-size: 24px;
+    }
+
+    .produtos-destacados h1{
+        font-size: 40px;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-produto{
+        flex-basis: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .cointainer-produtos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap:5rem;
+    }
+
+    .conheca-produtos{
+        margin-top: 5rem;
+        font-size: 18px;
+        padding: 1rem;
+        width: 20rem;
+    }
+
+    .historia{
+        display: flex;
+        padding-top: 4rem;
+        padding: 4rem;
+        gap: 4rem;
+    }
+
+    .historia img{
+        width: 50%;
+    }
+
+    .historia p{
+        font-size: 18px;
+    }
+
+    .missao{
+        display: flex;
+        padding-top: 4rem;
+        padding: 4rem;
+        gap: 4rem;
+    }
+
+    .missao img{
+        width: 50%;
+    }
+
+    .missao p{
+        font-size: 18px;
+    }
+
+    .valores{
+        display: flex;
+        padding-top: 4rem;
+        padding: 4rem;
+        gap: 4rem;
+    }
+
+    .valores img{
+        width: 50%;
+    }
+
+    .valores p{
+        font-size: 18px;
+    }
+
+    .introducao-produto{
+        display: flex;
+        gap: 4rem;
+    }
+
+    .introducao-produto img{
+        width: 50%;
+    }
+
+    .introducao-produto h1{
+        font-size: 30px;
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .galeria-imagem{
+        flex-basis: 33%;
+    }
+
+    .galeria-imagem img{
+        width: 100%;
+    }
+}
